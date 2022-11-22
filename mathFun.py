@@ -1,5 +1,4 @@
 import time
-from errorCreat_log import OutError
 from math import sin, cos, log, e, pi, sqrt,tan,asin,atan,acos
 from sympy import symbols, integrate
 
@@ -126,7 +125,12 @@ class MathEncapsulation(MathFunction):
 
 
 def main():
-    print('本程序')
+    print('\n====================================================================\n\n'
+          '本程序代码已开源，开源地址：https://github.com/czb2002/-simpson--python-.git\n'
+          '\n====================================================================\n')
     while True:
         A = MathEncapsulation(1, 2, 3, 4)
         A.main_cul()
+
+if __name__ == '__main__':
+    main()
